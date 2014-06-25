@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Summer Reading</title>
+  <link rel="stylesheet" href="assets/bookshelf.css">
+  <script>
+  function loadNewBook(newBook) {
+    var book = document.getElementById("book")
+  }
+  </script>
+</head>
+<header>
+<h1>So, I hear you need a new book to read.</h1>
+</header>
+<body>
+<form name="library" id="loadNewBook" action="#">
+<div class="shelf" "books">
+  <img src= "assets/extreme.jpg" />
+    <ul>
+      <li><%= title %></li>
+      <li><%= author %></li>
+    </ul>
+  </div>
+  <button class="new">Try Another</button>
+
+</form>
+  <script src="jquery.js"></script>
+  <script src="underscore.js"></script>
+  <script src="backbone.js"></script>
+    <script src="bookshelf.js"></script>
+  <script src="bookview.js"></script>
+  <script src="app.js"></script>
+</body>
+
+
